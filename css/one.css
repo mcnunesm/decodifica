@@ -28,9 +28,10 @@ header {
     border: none;
     outline: 0;
     background-color: #E5E5E5;
+    color: #0A3871;
 }
 
-input::placeholder {
+textarea::placeholder {
     color: #0A3871;
 }
 
