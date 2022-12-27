@@ -1,6 +1,5 @@
 var entradaTexto = document.querySelector("#digitar-texto");
 var saidaTexto = document.querySelector("#texto-resultante");
-var copiar = document.getElementById("copiar");
 
 function criptografar(){
 
