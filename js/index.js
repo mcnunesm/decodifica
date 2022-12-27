@@ -1,6 +1,7 @@
 var entradaTexto = document.querySelector("#digitar-texto");
 var saidaTexto = document.querySelector("#texto-resultante");
 
+
 function criptografar(){
 
 	var textoDigitado = entradaTexto.value;
@@ -33,6 +34,8 @@ function textoArea() {
 
 function imgArea() {
     document.getElementById("texto-resultante").style.display = "block";
+    document.getElementById("copiar").style.display = "block";
+    document.getElementById("voltar").style.display = "block";
 }
 
 function copiar() {
@@ -42,6 +45,8 @@ function copiar() {
 	document.execCommand('copy');
 	alert("O texto foi copiado :)"); 
 }
+
+
 
 
 
