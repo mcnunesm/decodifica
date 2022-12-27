@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/one.css">
+    <title>Decodificador - Challenge</title>
+</head>
+<body>
+    <section class="menu-site">
+        <div class="column-1">
+            <header>
+                <img src="./img/logoA.png" alt="logo Alura">
+            </header>
+
+            <main>
+            
+                <form>
+                    
+                    <input type="text" id="digitar-texto" class="input-texto" required placeholder="Digite seu texto">
+                </form>
+
+                <p class="aviso"> <img src="./img/ponto-interrog.png" alt="ponto de interrogação"> Apenas letras minúsculas e sem acento.</p>
+
+                <div class="buttons">
+                    <button onclick="criptografar(), textoArea(), imgArea()" class="btn-1">Criptografar</button>
+                    <button onclick="descriptografar(), textoArea(), imgArea()" class="btn-2">Descriptografar</button>
+                </div>
+        </div>
+
+        <div class="column-2">
+            
+            <div class="container-1">
+                <section id="texto-resultante">
+                    <textarea name="" class="texto-gerado" cols="30" rows="10"></textarea>
+                    <button id="copiar" class="btn-3">Copiar</button>
+                </section>
+                
+                
+                
+                <section id="nenhuma-entrada">
+                    <img src="./img/figura-lateral.png" alt="um garoto segurando uma lupa" class="imagem-lupa">
+                    <p class="texto-1">Nenhuma mensagem encontrada</p>
+                    <p class="texto-2">Digite um texto que você deseja criptografar ou descripgotrafar.</p>
+             </section>
+            </div>
+        </div>
+    </section>
+        
+    </main>
+
+    <footer>
+       <p>&#169; Copyright - Codificador de Texto Alura</p>
+       <p>Desenvolvido por <a href="">Maria Clara Nunes</a></p>
+    </footer>
+
+    <script type="text/javascript" src="js/index.js"></script>
+
+    
+</body>
+</html>
