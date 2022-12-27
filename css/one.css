@@ -13,7 +13,7 @@ body {
 
 .menu-site {
     display: flex;
-    gap: 20%;
+    justify-content: center;
 }
 
 
