@@ -22,12 +22,12 @@ header {
 }
 
 .input-texto {
-    margin: 168px 240px;
+    margin: 0 240px;
     font-weight: 400;
     font-size: 32px;
     border: none;
     outline: 0;
-    background-color: #E5E5E5 ;
+    background-color: #E5E5E5;
 }
 
 input::placeholder {
@@ -38,7 +38,7 @@ input::placeholder {
     font-weight: 400;
     color: #495057;
     font-size: 12px;
-    margin: 200px 0 0 264px;
+    margin: 0 0 0 264px;
 }
 
 .aviso img {
