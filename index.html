@@ -8,56 +8,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/one.css">
-    <title>Decodificador - Challenge</title>
+    <title>Encriptador - Challenge</title>
 </head>
 <body>
     <header>
         <img src="./img/logoA.png" alt="logo Alura">
     </header>
-    <section class="menu-site">
-        
-        <div class="column-1">
-          
-
-            <main>
+    
+    <main>
+        <section class="column-1">
             
-                <form>
-                    <textarea name="" id="digitar-texto" class="input-texto" cols="30" rows="10" required placeholder="Digite seu texto"></textarea>
-                </form>
+            <textarea id="digitar-texto" class="input-texto" cols="30" rows="10" required placeholder="Digite seu texto"></textarea>
 
-                <p class="aviso"> <img src="./img/ponto-interrog.png" alt="ponto de interrogação"> Apenas letras minúsculas e sem acento.</p>
+            <p class="aviso"> <img src="./img/ponto-exclamacao.png" alt="ponto de exclamação"> Apenas letras minúsculas e sem acento.</p>
 
-                <div class="buttons">
+            <div class="buttons">
                     <button onclick="criptografar(), textoArea(), imgArea()" class="btn-1">Criptografar</button>
                     <button onclick="descriptografar(), textoArea(), imgArea()" class="btn-2">Descriptografar</button>
-                </div>
-        </div>
+            </div>
+        </section>
 
-        <div class="column-2">
+        <section class="column-2">
             
             <div class="container-1">
-                
                     <textarea readonly class="texto-gerado" id="texto-resultante" cols="30" rows="10"></textarea>
                     <button class="btn-3" id="copiar" onclick="copiar()">Copiar</button>
                     <button class="btn-4" id="voltar"><a href="./index.html">Voltar</a></button>
                 
-                
-                
-                
-                <section id="nenhuma-entrada">
+                <div id="nenhuma-entrada">
                     <img src="./img/figura-lateral.png" alt="um garoto segurando uma lupa" class="imagem-lupa">
                     <p class="texto-1">Nenhuma mensagem encontrada.</p>
                     <p class="texto-2">Digite um texto que você deseja criptografar ou descripgotrafar.</p>
-             </section>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
         
     </main>
 
     <footer>
-       <p>&#169; Copyright - Codificador de Texto Alura</p>
-       <p>Desenvolvido por <a href="https://github.com/mcnunesm">Maria Clara Nunes</a></p>
+       <p>&#169; Copyright - Encriptador de Texto</p>
+       <p>Desenvolvido por <a href="https://github.com/mcnunesm" target="_blank">Maria Clara Nunes</a></p>
     </footer>
 
     <script type="text/javascript" src="./js/index.js"></script>

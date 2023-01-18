@@ -11,7 +11,7 @@ body {
     background-color: #E5E5E5;
 }
 
-.menu-site {
+main {
     display: flex;
     justify-content: center;
 }
